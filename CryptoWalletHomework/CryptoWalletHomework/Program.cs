@@ -1,13 +1,17 @@
 ﻿
 
+using CryptoWalletHomework.Classes.Transactions;
+
 namespace CryptoWalletHomework
 {
     public class Program
     {
         static void Main(string[] args)
         {
+            //Pri pokretanju aplikacije se kreira 9 predefiniranih
+            //walleta te 10 fungible i 20 non fungible asseta.
 
-
+            
 
             MainMenu();
 
@@ -120,8 +124,7 @@ namespace CryptoWalletHomework
             Console.Clear();
             Console.WriteLine("Returned to <MAIN MENU>");
         }
-
-
+       
         public static void SubMenuOptionTwo()
         {
             bool loop = true;
